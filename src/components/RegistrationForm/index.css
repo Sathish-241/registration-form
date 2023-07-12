@@ -1,0 +1,62 @@
+/* Write your CSS code here */
+.registration-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  height: 100vh;
+}
+.heading {
+  color: red;
+  font-size: 38px;
+}
+.form-container {
+  height: 350px;
+  width: 350px;
+  box-shadow: 0px 4px 16px 0px;
+  border: none;
+  border-radius: 8px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first-name-container,
+.last-name-container {
+  margin-bottom: 20px;
+}
+.input-field {
+  height: 35px;
+  width: 250px;
+  border: 1px solid #9aa5b1;
+  border-radius: 6px;
+}
+.label {
+  margin-bottom: 10px;
+}
+.btn {
+  text-align: center;
+  background-color: #ea580c;
+  color: white;
+  padding: 3px;
+  border: none;
+  border-radius: 12px;
+  height: 30px;
+  font-weight: 500;
+  width: 80px;
+  margin-left: 30%;
+}
+.success-logo {
+  margin-bottom: 10px;
+}
+.success-text {
+  font-family: roboto;
+}
+.another-btn {
+  background-color: #ea580c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
